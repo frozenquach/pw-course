@@ -1,0 +1,17 @@
+a. Tạo 3 file: file1, file2, file3
+- 3 files ở local project
+
+b. Chạy lệnh: git init
+- Khởi tạo git
+
+c. Chạy lệnh: git commit -m ”init project”
+- Báo lỗi vì chưa có add file (không có file ở staging area)
+
+d. Chạy lệnh: git add file1
+- add file1 vào staging area
+
+e. Chạy lệnh: git commit -m”add file1”
+- add file1 vào repository
+
+f. Chạy lệnh: git commit -m”add file”
+- Báo lỗi vì chưa có add file (không có file ở staging area)
