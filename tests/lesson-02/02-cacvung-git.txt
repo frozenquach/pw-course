@@ -1,25 +1,32 @@
 a. Tạo 3 file: file1, file2, file3
-- 3 files ở local project
+- Local:file1,file2,file3
+- Working directory: trống
+- Staging area: trống
+- Repository: trống
 
 b. Chạy lệnh: git init
 - Khởi tạo git
+- Local: trống
 - Working directory: file1,file2,file3
 - Staging area: trống
 - Repository: trống
 
 c. Chạy lệnh: git commit -m ”init project”
 - Báo lỗi vì chưa có add file ("nothing to commit")
+- Local: trống
 - Working directory: file1,file2,file3
 - Staging area: trống
 - Repository: trống
 
 d. Chạy lệnh: git add file1
 - add file1 vào staging area
+- Local: trống
 - Working directory: file2,file3
 - Staging area: file1
 - Repository: trống
 
 e. Chạy lệnh: git commit -m ”add file1”
+- Local: trống
 - Working directory: file2,file3
 - Staging area: trống
 - Repository: file1
