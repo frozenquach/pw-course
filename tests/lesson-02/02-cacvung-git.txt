@@ -3,6 +3,7 @@ a. Tạo 3 file: file1, file2, file3
 
 b. Chạy lệnh: git init
 - Khởi tạo git
+- file1,file2,file3 ở local project (working directory)
 
 c. Chạy lệnh: git commit -m ”init project”
 - Báo lỗi vì chưa có add file (không có file ở staging area)
