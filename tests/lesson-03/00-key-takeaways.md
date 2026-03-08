@@ -13,3 +13,4 @@ Git branch
 nodeJS
 - Câu điều kiện if else
 - Vòng lặp for xuôi và ngược
+- Toán tử chia lấy dư
