@@ -9,7 +9,7 @@ Git branch
 -git checkout -b <branch name> //Tạo và chuyển qua <branch name>
 -git branch -D <branch name> //Xóa <branch name> (note: nên qua nhánh khác để xóa)
 -git push origin <branch name> //Push nhánh <branch name> lên git remote
--git push -D <branch name> //Xóa <branch name> trên git remote
+-git push -D origin <branch name> //Xóa <branch name> trên git remote
 nodeJS
 - Câu điều kiện if else
 - Vòng lặp for xuôi và ngược
