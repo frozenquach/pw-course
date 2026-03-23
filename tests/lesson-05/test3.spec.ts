@@ -13,6 +13,7 @@ test('Test 3: Điền vào trang register page', async ({ page }) => {
         console.log(dialog.message())
         await dialog.accept();
     })
-        await page.locator(`#todo-${i}-delete`).click();
+        //await page.locator(`#todo-${i}-delete`).click();
+        await page.getByText(`Todo ${i} Edit Delete`).getByRole('button', { name: 'Delete' }).click();
     }
 });

@@ -5,12 +5,12 @@ test('Test 2: Điền vào trang register page', async ({ page }) => {
     await page.goto(url);
     await page.getByRole('link', { name: /Bài học 2: Product page/ }).click();
         for(let i=0;i<prod1;i++){
-            await page.locator('.products .add-to-cart').nth(0).click();
+            await page.getByRole('button', { name: 'Add to Cart' }).nth(0).click();
         }
         for(let i=0;i<prod2;i++){
-            await page.locator('.products .add-to-cart').nth(1).click();
+            await page.getByRole('button', { name: 'Add to Cart' }).nth(1).click();
         }
         for(let i=0;i<prod3;i++){
-            await page.locator('.products .add-to-cart').nth(2).click();
+            await page.getByRole('button', { name: 'Add to Cart' }).nth(2).click();
         }
     })
